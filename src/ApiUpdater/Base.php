@@ -21,11 +21,13 @@ class Base extends PluginBase{
     public $commands = [];
 
     public function onEnable(){
-    $this->FolderUpdater = new FolderUpdating($this);
-    $this->PharUpdater = new PharUpdating($this);
     $this->getServer()->getCommandMap()->register("ApiUpdater", $this->commands[] = new ApiUpdaterCommand($this));
     $this->getLogger()->info($this->PREFIX . "is Enabled!");
     }
+	
+	public function onLoad(){
+		require $this->getFile() . "vendor/autoload.php";
+	}
 
     public function getFolderUpdating(){
         return $this->FolderUpdater;
@@ -34,5 +36,8 @@ class Base extends PluginBase{
     public function getPharUpdating(){
         return $this->PharUpdater;
     }
+	public function onDisable(){
+		$this->getLogger()->info($this->PREFIX . "is Disabled!");
+	}
 
 }

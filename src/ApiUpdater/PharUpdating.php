@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 namespace ApiUpdater;
 
-require_once __DIR__ . '/../../vendor/autoload.php';
-
 use pocketmine\command\CommandSender;
 use Symfony\Component\Yaml\Yaml;
 
