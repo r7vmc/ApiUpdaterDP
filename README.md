@@ -1,4 +1,6 @@
-# ApiUpdaterDP
+# ApiUpdaterDP [![](https://poggit.pmmp.io/shield.state/ApiUpdaterDP)](https://poggit.pmmp.io/p/ApiUpdaterDP)
+<a href="https://poggit.pmmp.io/p/ApiUpdaterDP"><img src="https://poggit.pmmp.io/shield.state/ApiUpdaterDP"></a>
+
 
 ApiUpdaterDP is a plugin to update all your plugins APIs to match your Server API version.
 
