@@ -1,0 +1,13 @@
+name: ApiUpdaterDP
+author: R7vmc
+version: 3.0.0
+main: ApiUpdater\Base
+api:
+    - 4.0.0
+commands:
+    apiupdater:
+        description: "The main Command"
+        permission: apiupdater.use
+        usage: "§f/au help"
+permission:
+    apiupdater.use: { description: 'Allows to use the Main command', default: op }
