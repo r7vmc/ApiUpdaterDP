@@ -23,6 +23,8 @@ class Base extends PluginBase{
     public function onEnable(){
     $this->getServer()->getCommandMap()->register("ApiUpdater", $this->commands[] = new ApiUpdaterCommand($this));
     $this->getLogger()->info($this->PREFIX . "is Enabled!");
+    $this->FolderUpdater = new FolderUpdating($this);
+    $this->PharUpdater = new PharUpdating($this);
     }
 	
 	public function onLoad(){
