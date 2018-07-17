@@ -28,9 +28,11 @@ class PharUpdating{
      */
     public function update(CommandSender $sender)
     {
-        $sender->sendMessage($this->main->PREFIX . "Keep in Mind that this plugin will only change API number, and it will not apply new API changes");
-        $sender->sendMessage($this->main->PREFIX . "Make sure you have backup of all your data, i'm not responsible for Damaged plugins, this will won't likely happen but take your reserves");
-        sleep(10);
+        if ($this->main->getConfig()->get("show_warning") == true) {
+            $sender->sendMessage($this->main->PREFIX . "Make sure you have backup of all your data, i'm not responsible for Damaged plugins, this will won't likely happen but take your reserves");
+            $sender->sendMessage($this->main->PREFIX . "You can disable this message by setting 'show_warning' to false in the config");
+            sleep(10);
+        }
         $sender->sendMessage($this->main->PREFIX . "Updating....");
         $pluginsfolder = $this->main->getServer()->getPluginPath();
         $plugins = glob("$pluginsfolder*.phar");
@@ -39,9 +41,21 @@ class PharUpdating{
             //Opening PHAR
             $phar = new \Phar($plugins[$i]);
             $phar->startBuffering();
-            $plymlpath = $phar["plugin.yml"];
+            $plymlpath = 'phar://' . $phar->getPath() . '/plugin.yml';
             $plymlcontents = file_get_contents($plymlpath);
             $yaml = Yaml::parse($plymlcontents);
+            //applying API Changes: Start
+            if($yaml['name'] !== "ApiUpdaterDP"){
+            foreach (new \RecursiveIteratorIterator($phar) as $files) {
+                $files = $files->getPathname();
+                if (preg_match("/\.(php)*$/i", $files, $matches)) {
+                    $content = file_get_contents($files);
+                    $newcontent = $this->main->NewAPIChanges()->apply($content);
+                    file_put_contents($files, $newcontent);
+                }
+            }
+            }
+            //applying API Changes: End
             $apiy = $yaml['api'];
             $apis = $this->main->getServer()->getApiVersion();
             $plname = $yaml['name'];

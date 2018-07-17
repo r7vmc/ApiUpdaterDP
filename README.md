@@ -17,9 +17,9 @@ permissions:
 # Notice:
 - If you are going to update .phar plugins, make sure `phar.readonly` is set to off in `php.ini`, You can find that file in your bin folder
 
-- Keep in Mind that this plugin will only change API number, and it will not apply new API changes
-
 - Make sure you have a backup of all your data, i'm not responsible for any Damaged plugins, this will won't likely happen but take your reserves
+
+- This plugin might not fix all plugins
 
 # Contribution:
 Feel free to contribute if you have a ideas or found an issue

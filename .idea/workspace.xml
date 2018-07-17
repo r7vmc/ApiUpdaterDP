@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f33adbfe-513f-4286-89ea-190118ce1cca" name="Default" comment="" />
+    <list default="true" id="f33adbfe-513f-4286-89ea-190118ce1cca" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiUpdater/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiUpdater/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,23 +24,8 @@
       <file leaf-file-name="FolderUpdating.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
-              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-              <folding>
-                <element signature="e#30#67#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiUpdaterCommand.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ApiUpdater/ApiUpdaterCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-              <folding>
-                <element signature="e#55#86#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="595">
+              <caret line="35" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -41,10 +33,10 @@
       <file leaf-file-name="PharUpdating.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="233">
+              <caret line="31" column="192" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="192" />
               <folding>
-                <element signature="e#84#121#0#PHP" expanded="true" />
+                <element signature="e#55#92#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,10 +45,10 @@
       <file leaf-file-name="Base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ApiUpdater/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
-                <element signature="e#30#61#0#PHP" expanded="true" />
+                <element signature="e#55#86#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,16 +60,31 @@
     <findStrings>
       <find>$plugin</find>
       <find>string</find>
+      <find>content</find>
+      <find>newcontent</find>
+      <find>start</find>
+      <find>glob</find>
+      <find>var_d</find>
+      <find>cfg</find>
     </findStrings>
+    <replaceStrings>
+      <replace>newcontent</replace>
+      <replace>content</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/ApiUpdater/ApiUpdaterCommand.php" />
-        <option value="$PROJECT_DIR$/src/ApiUpdater/Base.php" />
-        <option value="$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php" />
+        <option value="$PROJECT_DIR$/src/ApiUpdater/FolderCodeUpdater.php" />
+        <option value="$PROJECT_DIR$/src/ApiUpdater/NewAPIChanges.php" />
         <option value="$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php" />
+        <option value="$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php" />
+        <option value="$PROJECT_DIR$/src/ApiUpdater/Base.php" />
       </list>
     </option>
   </component>
@@ -105,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +138,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,11 +182,30 @@
       <workItem from="1531306311546" duration="123000" />
       <workItem from="1531332548723" duration="188000" />
       <workItem from="1531332836337" duration="190000" />
+      <workItem from="1531668316192" duration="1300000" />
+      <workItem from="1531669912068" duration="240000" />
+      <workItem from="1531675688448" duration="2712000" />
+      <workItem from="1531680549486" duration="195000" />
+      <workItem from="1531682445283" duration="23000" />
+      <workItem from="1531684737936" duration="1372000" />
+      <workItem from="1531686880982" duration="831000" />
+      <workItem from="1531759817339" duration="5258000" />
+      <workItem from="1531765745883" duration="145000" />
+      <workItem from="1531766381997" duration="2839000" />
+      <workItem from="1531773068625" duration="2153000" />
+      <workItem from="1531775775794" duration="3391000" />
+      <workItem from="1531779560232" duration="1091000" />
+      <workItem from="1531781775130" duration="2403000" />
+      <workItem from="1531784903826" duration="3832000" />
+      <workItem from="1531790918569" duration="2107000" />
+      <workItem from="1531820580020" duration="1706000" />
+      <workItem from="1531823026274" duration="2125000" />
+      <workItem from="1531825238178" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28872000" />
+    <option name="totallyTimeSpent" value="63431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -191,7 +217,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -213,13 +239,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/NewAPIChanges.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="e#55#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/ApiUpdaterCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -227,9 +295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="e#84#121#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -237,9 +302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -247,18 +309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-          <folding>
-            <element signature="e#55#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -266,9 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#84#121#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -276,9 +323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,9 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-          <folding>
-            <element signature="e#55#86#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -296,9 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -306,9 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="e#55#86#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -316,9 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#84#121#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -326,9 +358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,9 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -346,9 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="e#84#121#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,9 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -366,9 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,9 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#84#121#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,9 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,9 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,9 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -575,42 +564,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php">
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderCodeUpdater.php" />
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/NewAPIChanges.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/ApiUpdaterCommand.php">
+    <entry file="file://$PROJECT_DIR$/src/ApiUpdater/FolderUpdating.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-          <folding>
-            <element signature="e#55#86#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="595">
+          <caret line="35" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApiUpdater/PharUpdating.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="233">
+          <caret line="31" column="192" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="192" />
           <folding>
-            <element signature="e#84#121#0#PHP" expanded="true" />
+            <element signature="e#55#92#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ApiUpdater/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
+            <element signature="e#55#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
