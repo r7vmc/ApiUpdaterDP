@@ -11,7 +11,7 @@ class NewAPIChanges{
     public function apply($content){//New Changes
        $content = str_replace('PluginTask', 'Task', $content);
        $content = str_replace('parent::__construct($plugin);', ' ', $content);
-       $content = str_replace('isUnderWater', 'isUnderWater', $content);
+       $content = str_replace('isInsideOfWater', 'isUnderWater', $content);
        $content = str_replace('$this->getServer()->getScheduler()', '$this->getScheduler()', $content);
        $content = str_replace("$this->getServer()->getScheduler()->scheduleAsyncTask", "$this->getServer()->getAsyncPool()->submitTask", $content);
        $content = str_replace("$this->getServer()->getScheduler()->scheduleAsyncTaskToWorker", "$this->getServer()->getAsyncPool()->submitTasktoWorker", $content);
