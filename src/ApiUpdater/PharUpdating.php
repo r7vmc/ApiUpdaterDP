@@ -39,7 +39,7 @@ class PharUpdating{
             //Opening PHAR
             $phar = new \Phar($plugins[$i]);
             $phar->startBuffering();
-            $plymlpath = $phar["plugin.yml"];
+            $plymlpath = 'phar://' . $phar->getPath() . '/plugin.yml';
             $plymlcontents = file_get_contents($plymlpath);
             $yaml = Yaml::parse($plymlcontents);
             $apiy = $yaml['api'];
