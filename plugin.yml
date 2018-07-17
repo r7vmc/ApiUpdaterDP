@@ -1,10 +1,14 @@
 name: ApiUpdaterDP
 author: R7vmc
+<<<<<<< HEAD
 version: 4.0.0
+=======
+version: 3.1.0
+>>>>>>> master
 main: ApiUpdater\Base
 api:
-    - 4.0.0
     - 3.0.0
+    - 4.0.0
 commands:
     apiupdater:
         description: "The main Command"
