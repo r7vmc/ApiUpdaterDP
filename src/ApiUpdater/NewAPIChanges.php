@@ -13,8 +13,8 @@ class NewAPIChanges{
        $content = str_replace('parent::__construct($plugin);', ' ', $content);
        $content = str_replace('isUnderWater', 'isUnderWater', $content);
        $content = str_replace('$this->getServer()->getScheduler()', '$this->getScheduler()', $content);
-       $content = str_replace('$this->getServer()->getAsyncPool()->submitTask', '$this->getServer()->getAsyncPool()->submitTask', $content);
-       $content = str_replace('$this->getServer()->getAsyncPool()->submitTasktoWorker', '$this->getServer()->getAsyncPool()->submitTasktoWorker', $content);
+       $content = str_replace("$this->getServer()->getScheduler()->scheduleAsyncTask", "$this->getServer()->getAsyncPool()->submitTask", $content);
+       $content = str_replace("$this->getServer()->getScheduler()->scheduleAsyncTaskToWorker", "$this->getServer()->getAsyncPool()->submitTasktoWorker", $content);
        $content = str_replace('setDamage', 'setModifier', $content);
        $content = str_replace('getDamage', 'getModifier', $content);
        $content = str_replace('getOriginalDamage', 'getOriginalModifier', $content);
