@@ -3,7 +3,5 @@ branches:
 - master
 projects:
   ApiUpdaterDP:
-    includeDirs:
-      vendor: vendor
     path: ""
 ...

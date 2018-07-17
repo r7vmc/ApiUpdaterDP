@@ -28,12 +28,9 @@ class Base extends PluginBase{
     $this->getLogger()->info($this->PREFIX . "is Enabled!");
     $this->FolderUpdater = new FolderUpdating($this);
     $this->PharUpdater = new PharUpdating($this);
-<<<<<<< HEAD
     $this->NewAPIChanges = new NewAPIChanges($this);
     $this->saveDefaultConfig();
     $this->reloadConfig();
-=======
->>>>>>> master
     }
 	
 	public function onLoad(){
